@@ -8,6 +8,8 @@
 
 import React from 'react';
 import { WebView } from 'react-native-webview';
+import {BackHandler,Platform,ActivityIndicator,AppRegistry} from 'react-native';
+
 
 export default class App extends React.Component {
 	constructor(props) {
